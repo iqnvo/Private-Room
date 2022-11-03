@@ -1,0 +1,24 @@
+name: Private-Rooms
+author: iqnvo & Ghost
+api: 4.0.0
+version: 1.0.0
+main: privateRoom\main
+
+
+
+commands:
+  setroom:
+    permission: room.use.command
+  room:
+    permission: room.use.command
+  listrooms:
+    permission: room.use.command
+  removeroom:
+    permission: room.use.command
+
+
+
+
+permissions:
+  room.use.command:
+    default: op
